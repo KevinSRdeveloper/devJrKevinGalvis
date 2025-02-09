@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+/* STYLE TABLET*/
+@media (min-width: 768px) {
+   
+}  
+
+
+/*STYLE MOBIL*/
+@media (min-width: 1024px) {
+
+}
