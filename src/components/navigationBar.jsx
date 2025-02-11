@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import iconDevs from "../assets/icons/icon-devJR.png";
 import iconClock from "../assets/icons/icon-clock.png"
 import { useState, useEffect } from "react";
@@ -53,6 +53,9 @@ const Navigation = () => {
         return () => clearInterval(interval);
     },[]);
 
+    
+   const linkActive = useLocation();
+
 
 
     return(
@@ -63,10 +66,10 @@ const Navigation = () => {
                         <img src={iconDevs} alt="Dev JR Kevin Galvis" />
                     </figure>
                     
-                    <Link to="/" className="link-nav"><i className="bi bi-houses-fill"></i>Inicio</Link>
-                    <Link to="/acerca" className="link-nav"><i className="bi bi-person-circle"></i>Acerca De Mi</Link>
-                    <Link to="/proyectos" className="link-nav"><i className="bi bi-person-circle"></i>Proyectos</Link>
-                    <Link to="/contactame" className="link-nav"><i className="bi bi-person-circle"></i>Contactame</Link>
+                    <Link to="/" className={`link-nav ${linkActive.pathname === "/"?"link-nav-active":""}`}><i className="bi bi-houses-fill"></i>Inicio</Link>
+                    <Link to="/acerca" className={`link-nav ${linkActive.pathname === "/acerca" ?"link-nav-active":""}`}><i className="bi bi-person-circle"></i>Acerca De Mi</Link>
+                    <Link to="/proyectos" className={`link-nav ${linkActive.pathname === "/proyectos" ?"link-nav-active":""}`}><i className="bi bi-person-circle"></i>Proyectos</Link>
+                    <Link to="/contactame" className={`link-nav ${linkActive.pathname === "/contactame" ?"link-nav-active":""}`}><i className="bi bi-person-circle"></i>Contactame</Link>
 
 
                 </div>

@@ -9,17 +9,24 @@ import iconGit from '../assets/icons/git.png';
 import iconGitHub from '../assets/icons/github.png';
 
 
+
 const InicioPage = () => {
+
+    const DownLoadCV = () => {
+        window.open("../../public/documents/CvDesarrolladorSoftwareKevinDavidZambranoGalvis.pdf","_blank","");
+    }
+
    
 
     return(
         <>
             <section className="sect-inicio">
+          
                 <article className="art-container-1">
                     <figure className="photo-inicio">
                         <img src={photeInicio} alt="Dev JR Kevin Galvis" />
                     </figure>
-                    <button className='btn-downloadCV'>Descargar CV</button>
+                    <button className='btn-downloadCV' onClick={DownLoadCV}>Descargar CV</button>
                 </article>
                
                 <article className="art-container-2">
@@ -35,8 +42,12 @@ const InicioPage = () => {
                         <img src={iconGit} alt="React JS Dev Kevin Galvis" />
                         <img src={iconGitHub} alt="React JS Dev Kevin Galvis" />
                     </figure>
+                    <button className='btn-downloadCV btn-downloadCV2' onClick={DownLoadCV}>Descargar CV</button>
+
 
                 </article>
+
+             
 
             </section>
         
