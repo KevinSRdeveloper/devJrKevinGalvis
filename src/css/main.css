@@ -11,10 +11,13 @@ body{
     background-image: url("../assets/image/background.jpg");
     background-size: 100% 200%;
     background-repeat: no-repeat;
+   
 }
 
 .container-navigation{
     width: 100%;
+    position: sticky;
+    top: 1px;
    
 
 }
@@ -183,6 +186,160 @@ body{
 
 }
 
+/*SECTION ABOUT*/
+
+.container-about{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.img-about{
+    width: 90%;
+    height: 80%;
+
+    position: absolute;
+    bottom: 0;
+    left: -20%;
+}
+
+.img-about img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    filter: drop-shadow(0px 0px 2px #fff) drop-shadow(5px 5px 2px #000);
+}
+.art-about{
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 2em;
+
+}
+
+.art-about h2{
+    font-size: 3.5em;
+    font-weight: bold;
+    padding: 0.1em;
+    
+}
+
+.squart-span{
+    width: 50%;
+    height: 120vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #d4d4d4;
+    z-index: -1;
+}
+
+.art-aboutText{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+   
+}
+
+.about-information{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+   
+}
+
+.about-information h2{
+    font-size: 1em;
+    text-align: end;
+}
+
+.about-information h3{
+    font-size: 0.6em;
+    text-align: end;
+    background-color: #0572FF;
+    padding: 0.6em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.about-information a{
+    font-size: 0.7em;
+    color: #242424;
+    margin-top: 0.4em;
+    text-decoration: none;
+}
+
+.about-information a i{
+    margin-right: 0.5em;
+}
+
+.about-information a:hover{
+    font-size: 1.5em;
+    transition: all 1s;
+}
+
+.sect-inicio2{
+    width: 100%;
+    padding: 1em;
+    
+}
+
+.art-inicio2{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+.text-inicio2 h2{
+    font-size: 1em;
+    font-weight: bold;
+    color: #0347a0;
+    padding: 1em;
+}
+.text-inicio2 h3{
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 1em 0;
+  
+}
+.text-inicio2 h4{
+    font-size: 0.8em;
+    
+  
+}
+
+.span-color{
+    background-color: #0572FF;
+    color: #fff;
+    padding: 0.3em;
+    border-radius: 5px;
+    margin: 0.2em 0;
+}
+
+.text-inicio2 p{
+    width: 50%;
+    background-color: #0347a0;
+    color: #fff;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.2em;
+    border-radius: 8px;
+    font-size: 0.9em;
+}
+
+.text-inicio2 .color-green{
+    background-color: green;
+}
+
+
+
+
+
 
 
 
@@ -235,6 +392,31 @@ body{
         display: block;
         width: 50%;
     }
+    .art-about{
+        padding: 0.8em;
+        text-align: start;
+    }
+    .img-about{
+        left: -15%;
+    }
+
+    .img-about img{
+        object-fit: contain;
+        object-position: 0% 0%;
+    }
+    .about-information{
+        padding: 1em;
+    }
+
+    .about-information h2{
+        font-size: 2.0em;
+    }
+    .about-information h3{
+        font-size: 1em;
+    }
+    .about-information a{
+        font-size: 1em ;   
+    }
    
 }  
 
@@ -257,6 +439,62 @@ body{
     }
     .btn-downloadCV2{
         width: 30%;
+    }
+
+    .img-about{
+        left: -15%;
+       
+    }
+
+    .container-about{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+ 
+
+    .about-item1{
+        order: 2;
+    }
+    .about-item2{
+        order: 1;
+    }
+    .about-item3{
+        order: 1;
+    }
+
+    .art-aboutText{
+        width: 50%;
+    }
+    .about-information{
+        width: 100%;
+    }
+    .about-information h2{
+        font-size: 4em;
+    }
+
+    .about-information h3{
+        font-size: 1.2em;
+    }
+
+    .about-information a{
+        font-size: 1.2em;
+    }
+    .squart-span{
+        width: 30%;
+        height: 110vh;
+    }
+    .img-about{
+        width: 40%;
+        height: 70%;
+        position: static;
+        left: 0%;
+
+    }
+    .img-about img{
+        object-fit: contain;
+       
     }
     
 

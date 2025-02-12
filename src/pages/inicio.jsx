@@ -50,7 +50,8 @@ const InicioPage = () => {
              
 
             </section>
-        
+
+           
         
         </>
     );
