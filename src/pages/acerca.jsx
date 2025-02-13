@@ -32,45 +32,77 @@ const AcercaPage = () => {
                     </div>
 
                 </article>
+                <span className='squart-span'></span>
 
               
 
             </section>
 
             <section className='sect-inicio2'>
-                <div className="art-inicio2">
-                    <div className="text-inicio2">
-                        <h2>Educacion Profesional</h2>
-                        <hr />
-                        <h3>Tecnologo En Analisis y Desarrollo De Software</h3>
-                        <h4><span className='span-color'>In:</span> 11/09/2023 <span className='span-color'>Fn:</span>10/12/2025</h4>
-                        <p>En Proceso</p>
-                    </div>
-                    <div className="text-inicio2">
-                        <hr />
-                        <h3>Tecnico En Programacion De Software</h3>
-                        <h4><span className='span-color'>In:</span> 28/09/2015 <span className='span-color'>Fn:</span>28/09/2016</h4>
-                        <p className={'certificado' == 'certificado'?'color-green':""}>Certificado</p>
-                    </div>
-                    <div className="text-inicio2">
-                        <h2>Cursos Online</h2>
-                        <hr />
-                        <h3>React JS</h3>
-                        <h4><span className='span-color'>In:</span> 28/09/2015 <span className='span-color'>Fn:</span>28/09/2016</h4>
-                        <p className={'certificado' == 'certificado'?'color-green':""}>Certificado</p>
-                    </div>
-                    <div className="text-inicio2">
-                        <hr />
-                        <h3>JavaScript</h3>
-                        <h4><span className='span-color'>In:</span> 28/09/2015 <span className='span-color'>Fn:</span>28/09/2016</h4>
-                        <p className={'certificado' == 'certificado'?'color-green':""}>Certificado</p>
-                    </div>
-
+                <div className="text-inicio">
+                    <h3>Estudios Profesionales</h3>
                 </div>
+                <div className="card-inicio">
+                    <h2>Tecnologo En Analisis y Desarrollo de software | SENA</h2>
+                    <hr />
+                    <h4><span>Fecha Inicio</span>10/10/2025 </h4>
+                    <h4><span>Fecha Final</span>10/10/2025 </h4>
+                    <p>En Proceso</p>
+                </div>
+                <div className="card-inicio">
+                    <h2>Tecnologo En Analisis y Desarrollo de software | SENA</h2>
+                    <hr />
+                    <h4><span>Fecha Inicio</span>10/10/2025 </h4>
+                    <h4><span>Fecha Final</span>10/10/2025 </h4>
+                    <p>En Proceso</p>
+                </div>
+            </section>
+           
+            <section className='sect-inicio2 background-light'>
+                <div className="text-inicio background-blue">
+                    <h3>Cursos</h3>
+                </div>
+                <div className="card-inicio background-border">
+                    <h2>Tecnologo En Analisis y Desarrollo de software | SENA</h2>
+                    <hr />
+                    <h4><span>Fecha Inicio</span>10/10/2025 </h4>
+                    <h4><span>Fecha Final</span>10/10/2025 </h4>
+                    <p>En Proceso</p>
+                </div>
+                <div className="card-inicio background-border">
+                    <h2>Tecnologo En Analisis y Desarrollo de software | SENA</h2>
+                    <hr />
+                    <h4><span>Fecha Inicio</span>10/10/2025 </h4>
+                    <h4><span>Fecha Final</span>10/10/2025 </h4>
+                    <p>En Proceso</p>
+                </div>
+            </section>
 
+            <section className='sect-inicio2'>
+                <div className="text-inicio ">
+                    <h3>Tecnologias</h3>
+                </div>
+                <div className="card-inicio ">
+                    <h2>Tecnologias </h2>
+                    <hr />
+                    <h4>Ract JS</h4>
+                    <h4>JavaScript</h4>
+                    <h4>Node JS</h4>
+                    <h4>SQL</h4>
+                    <h4>HTML5</h4>
+                    <h4>Css3</h4>
+                   
+                </div>
+                <div className="card-inicio">
+                    <h2>Herramientas</h2>
+                    <hr />
+                    <h4>Git</h4>
+                    <h4>GitHub</h4>
+                    <h4>Figma</h4>  
+                </div>
             </section>
         
-            <span className='squart-span'></span>
+          
            
         </>
     );
