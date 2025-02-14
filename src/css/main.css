@@ -290,88 +290,100 @@ body{
     transition: all 1s;
 }
 
-.sect-inicio2{
+.text-profesional{
     max-width: 1440px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    border-radius: 15px;
-    background-color: #0347a0;
-    padding: 1em 0;
+    height: auto;
+    background-color: #0572FF;
+    margin: 0 auto;
 }
 
-.card-inicio{
-    width: 90%;
-    padding: 1em;
-    background-color: #fff;
-    border-radius: 12px;
-}
-
-.card-inicio h2{
-    font-size: 0.8em;
-    padding: 0.8em 0;
-}
-
-.card-inicio h4{
-    font-size: 0.8em;
-}
-.card-inicio h4{
-    margin: 0.3em 0;
-}
-
-.card-inicio p{
-    background: #0347a0;
+.text-profesional p{
     color: #fff;
-    margin: 0.8em;
-    padding: 0.3em;
-    border-radius: 8px;
-}
-
-.text-inicio{
-    width: 100%;
-    margin: 0.8em 0;
-    display: flex;
-    justify-content: center;
+    font-size: 0.8em;
+    padding: 1em;
     text-align: center;
 }
 
-.text-inicio h3{
-    padding: 0.8em;
+.sect-card{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title{
     width: 80%;
-    color: #0347a0;
+    background-color: #0572FF;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    
+}
+
+.card-title h2{
+    width: 100%;
+    padding: 0.2em;
+    font-size: 0.9em;
+    text-align: center;
+    color: #fff;
+}
+
+.card{
+    position: relative;
+    width: 90%;
+    margin: 0.8em 0;
+    box-shadow: 0px 0px 5px 2px rgba(21,163,66,1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+
+
+
+.header-card{
+    width: 100%;
+    height: auto;
+    background-color: #dedede;
+    padding: 0.2em;
+    text-align: center;
+}
+
+.header-card img{
+    width: 50%;
+    height: 100%;
     background-color: #fff;
+    border-radius: 50%;
+}
+
+.body-card{
+    width: 100%;
+    height: auto;
+    padding: 0.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-evenly;
+}
+
+.back-card{
+    background-color: #0347a0;
+    padding: 0.2em;
+    color: #fff;
+    font-size: 0.8em;
     border-radius: 5px;
+    letter-spacing: 1px;
+    
+    
 }
 
-.background-light{
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    border-radius: 0;
-    margin: 1em 0;
+.body-card h2{
+    font-size: 0.8em;
+    text-align: center;
 }
 
-.background-border{
-    background-color: #0347a0;
-}
 
-.background-border h2{
-    color: #fff;
-}
-
-.background-border h4{
-    color: #fff;
-}
-.background-border p{
-    background-color: #fff;
-    color: #0347a0;
-}
-
-.background-blue h3{
-    background-color: #0347a0;
-    color: #fff;
-}
 
 
 
@@ -427,20 +439,41 @@ body{
         display: block;
         width: 50%;
     }
+
+    .container-about{
+        display: flex;
+        height: 100vh;
+        position: static;
+    }
+    .about-item1{
+        order: 2;
+    }
+    .about-item2{
+        order: 1;
+    }
+    .about-item3{
+        order: 1;
+    }
+ 
     .art-about{
         padding: 0.8em;
         text-align: start;
     }
     .img-about{
-        left: -15%;
+        width: 50%;
+        left: 0%;
+        position: static;
+     
+        
     }
 
     .img-about img{
         object-fit: contain;
-        object-position: 0% 0%;
+        object-position: 50% 50%;
     }
     .about-information{
         padding: 1em;
+        width: 100%;
     }
 
     .about-information h2{
@@ -453,14 +486,10 @@ body{
         font-size: 1em ;   
     }
 
-    .sect-inicio2{
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+   
 
-    .card-inicio{
-        width: 45%;
-    }
+   
+
    
 }  
 
@@ -501,15 +530,14 @@ body{
     .about-item1{
         order: 2;
     }
-    .about-item2{
-        order: 1;
-    }
+  
     .about-item3{
         order: 1;
     }
 
     .art-aboutText{
         width: 50%;
+        
     }
     .about-information{
         width: 100%;
@@ -540,6 +568,6 @@ body{
         object-fit: contain;
        
     }
-    
 
+   
 }

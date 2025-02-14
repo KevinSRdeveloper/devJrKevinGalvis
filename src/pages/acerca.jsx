@@ -1,4 +1,5 @@
 import imgAbout from '../assets/image/img_perfil.png'; 
+import logoSena from '../assets/image/SENA.png';
 const AcercaPage = () => {
     return(
         <>
@@ -6,9 +7,7 @@ const AcercaPage = () => {
                 <figure className="img-about about-item1">
                     <img src={imgAbout} alt="DEV JR KEVIN GALVIS" />
                 </figure>
-                <article className="art-about about-item2">
-                   
-                </article>
+           
                 <article className='art-aboutText about-item3'>
                     <div className='about-information'>
                         <h2>Kevin David Zambrano Galvis</h2>
@@ -32,75 +31,45 @@ const AcercaPage = () => {
                     </div>
 
                 </article>
-                <span className='squart-span'></span>
-
-              
-
+                
             </section>
 
-            <section className='sect-inicio2'>
-                <div className="text-inicio">
-                    <h3>Estudios Profesionales</h3>
-                </div>
-                <div className="card-inicio">
-                    <h2>Tecnologo En Analisis y Desarrollo de software | SENA</h2>
-                    <hr />
-                    <h4><span>Fecha Inicio</span>10/10/2025 </h4>
-                    <h4><span>Fecha Final</span>10/10/2025 </h4>
-                    <p>En Proceso</p>
-                </div>
-                <div className="card-inicio">
-                    <h2>Tecnologo En Analisis y Desarrollo de software | SENA</h2>
-                    <hr />
-                    <h4><span>Fecha Inicio</span>10/10/2025 </h4>
-                    <h4><span>Fecha Final</span>10/10/2025 </h4>
-                    <p>En Proceso</p>
-                </div>
-            </section>
-           
-            <section className='sect-inicio2 background-light'>
-                <div className="text-inicio background-blue">
-                    <h3>Cursos</h3>
-                </div>
-                <div className="card-inicio background-border">
-                    <h2>Tecnologo En Analisis y Desarrollo de software | SENA</h2>
-                    <hr />
-                    <h4><span>Fecha Inicio</span>10/10/2025 </h4>
-                    <h4><span>Fecha Final</span>10/10/2025 </h4>
-                    <p>En Proceso</p>
-                </div>
-                <div className="card-inicio background-border">
-                    <h2>Tecnologo En Analisis y Desarrollo de software | SENA</h2>
-                    <hr />
-                    <h4><span>Fecha Inicio</span>10/10/2025 </h4>
-                    <h4><span>Fecha Final</span>10/10/2025 </h4>
-                    <p>En Proceso</p>
-                </div>
-            </section>
+            <div className="text-profesional">
+                <p>¡Soy desarrollador de software junior con experiencia en la creación de aplicaciones web dinámicas y responsivas Mi enfoque principal es el desarrollo frontend utilizando React.js, JavaScript, HTML5 y CSS, pero también tengo conocimientos en Node.js para el backend. Me encanta aprender y enfrentar desafíos que me permitan crecer como profesional.</p>
+            </div>
 
-            <section className='sect-inicio2'>
-                <div className="text-inicio ">
-                    <h3>Tecnologias</h3>
+            <section className='sect-card'>
+                <div className="card-title">
+                    <h2>Educacion Profecional</h2>
                 </div>
-                <div className="card-inicio ">
-                    <h2>Tecnologias </h2>
-                    <hr />
-                    <h4>Ract JS</h4>
-                    <h4>JavaScript</h4>
-                    <h4>Node JS</h4>
-                    <h4>SQL</h4>
-                    <h4>HTML5</h4>
-                    <h4>Css3</h4>
+                <div className="card">
+                    <div className="header-card">
+                        <img src={logoSena} alt="dev kevin galvis SENA" />
+                    </div>
+                    <div className="body-card">
+                        <h2>Tecnologo En Analisis y Desarrollo De Software</h2>
+                        <p><span className='back-card'>Fecha Inicial</span>10/10/2025</p>
                    
+                        <p><span className='back-card'>Fecha Final</span>10/10/2025</p>
+
+                    </div>
                 </div>
-                <div className="card-inicio">
-                    <h2>Herramientas</h2>
-                    <hr />
-                    <h4>Git</h4>
-                    <h4>GitHub</h4>
-                    <h4>Figma</h4>  
+                <div className="card">
+                    <div className="header-card">
+                        <img src={logoSena} alt="dev kevin galvis SENA" />
+                    </div>
+                    <div className="body-card">
+                        <h2>Tecnico En Programacion De Software</h2>
+                        <p><span className='back-card'>Fecha Inicial</span>10/10/2025</p>
+                   
+                        <p><span className='back-card'>Fecha Final</span>10/10/2025</p>
+
+                    </div>
                 </div>
+                
             </section>
+
+          
         
           
            
