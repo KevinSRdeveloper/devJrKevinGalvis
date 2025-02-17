@@ -47,6 +47,9 @@ const InicioPage = () => {
 
                 </article>
 
+                <span className='back-edif'></span>
+
+
              
 
             </section>
