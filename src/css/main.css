@@ -483,6 +483,30 @@ body{
 
 }
 
+.sect-proyecto{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.title-proyecto{
+    width: 100%;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.title-proyecto h2{
+    width: 40%;
+    padding: 0.8em;
+    font-size: 0.7em;
+    background-color: #045ed3;
+    border-radius: 12px;
+    color: #fff;
+
+}
+.slider{
+    width: 100%;
+}
+
 
 
 

@@ -1,5 +1,6 @@
 import imgAbout from '../assets/image/img_perfil.png'; 
 import logoSena from '../assets/image/SENA.png';
+import logoUdemy from '../assets/icons/udemy.svg';
 import iconReact from '../assets/icons/react.png';
 import iconNode from '../assets/icons/Node JS.png';
 import iconJavaScript from '../assets/icons/js.png';
@@ -44,7 +45,7 @@ const AcercaPage = () => {
 
             <div className="text-profesional">
                 <span className='back-edif'></span>
-                <p>¡Soy desarrollador de software junior con experiencia en la creación de aplicaciones web dinámicas y responsivas Mi enfoque principal es el desarrollo frontend utilizando React.js, JavaScript, HTML5 y CSS, pero también tengo conocimientos en Node.js para el backend. Me encanta aprender y enfrentar desafíos que me permitan crecer como profesional.</p>
+                <p>¡Soy desarrollador de software junior con experiencia en la creación de aplicaciones web dinámicas y responsivasMi enfoque principal es el desarrollo frontend utilizando React.js, JavaScript, HTML5 y CSS, pero también tengo conocimientos en Node.js para el backend. Me encanta aprender y enfrentar desafíos que me permitan crecer como profesional.</p>
             </div>
 
             <section className='sect-card'>
@@ -104,6 +105,56 @@ const AcercaPage = () => {
                 <span className='back-edif'></span>
                
             </section>
+
+            <section className='sect-card'>
+                <div className="card-title">
+                    <h2>Cursos Online</h2>
+                </div>
+                <div className="card">
+                    <div className="header-card">
+                        <img src={logoUdemy} alt="dev kevin galvis SENA" />
+                    </div>
+                    <div className="body-card">
+                        <h2>Tecnologo En Analisis y Desarrollo De Software</h2>
+                        <p><span className='back-card'>Fecha Inicial</span>10/10/2025</p>
+                   
+                        <p><span className='back-card'>Fecha Final</span>10/10/2025</p>
+
+                        <a href="#" className='back-warning'>En Proceso</a>
+
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="header-card">
+                        <img src={logoUdemy} alt="dev kevin galvis SENA" />
+                    </div>
+                    <div className="body-card">
+                        <h2>Tecnico En Programacion De Software</h2>
+                        <p><span className='back-card'>Fecha Inicial</span>10/10/2025</p>
+                   
+                        <p><span className='back-card'>Fecha Final</span>10/10/2025</p>
+                        <a href="#" className='back-success'>Certificado</a>
+
+
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="header-card">
+                        <img src={logoUdemy} alt="dev kevin galvis SENA" />
+                    </div>
+                    <div className="body-card">
+                        <h2>Tecnico En Programacion De Software</h2>
+                        <p><span className='back-card'>Fecha Inicial</span>10/10/2025</p>
+                   
+                        <p><span className='back-card'>Fecha Final</span>10/10/2025</p>
+                        <a href="#" className='back-success'>Certificado</a>
+
+
+                    </div>
+                </div>
+                
+            </section>
+
             
               
            
