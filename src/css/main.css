@@ -490,21 +490,124 @@ body{
 
 .title-proyecto{
     width: 100%;
-    margin-top: 1em;
-    margin-left: 1em;
+    position: relative;
+   
 }
 
 .title-proyecto h2{
-    width: 40%;
+    width: 100%;
     padding: 0.8em;
     font-size: 0.7em;
     background-color: #045ed3;
-    border-radius: 12px;
     color: #fff;
+    margin-top: 1em;
+    text-align: center;
 
 }
 .slider{
     width: 100%;
+    position: relative;
+    
+}
+
+.slider-card{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 1em;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 0px 17px 0px rgba(0, 86, 207, 0.912);
+    overflow: auto;
+
+}
+
+.img-slider{
+    width: 90%;
+    height: 40%;
+    background: violet;
+    margin: 0 auto;
+    margin-top: 0.3em;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 0px 17px 0px rgba(145, 145, 145, 0.608);
+
+}
+
+.img-slider img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.tag-slider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin:0.8em 0;
+}
+
+.tag-slider p{
+    font-size: 0.7em;
+    background-color: #0571ff83;
+    padding: 0.2em;
+    border-radius: 12px;
+   
+
+}
+
+.title-slider{ 
+    width: 100%;
+    text-align: center;
+    margin: 0.3em 0;
+}
+
+.title-slider p{
+    font-size: 0.8em;
+}
+
+.slider-link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.slider-link a{
+    letter-spacing: 1px;
+    background-color: #0347a0;
+    padding: 0.5em;
+    border-radius: 12px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.slider-link a i{
+    margin-right: 0.5em;
+}
+
+.slider-git{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+.slider-git a{
+    color: #000;
+    font-size: 1.5em;
+}
+
+.slider-tecnologias{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0.8em 0;
+}
+
+.slider-tecnologias img{
+    width: 25px;
+    height: 25px;
 }
 
 
@@ -644,6 +747,13 @@ body{
         justify-content: space-evenly;
     }
 
+    .slider-card{
+        width: 300px;
+    }
+
+    .swiper-wrapper{
+        justify-content: center;
+    }
     
 
    
@@ -748,6 +858,20 @@ body{
         width: 30%;
         font-size: 1.5em;
         background-color: #0572FF;
+    }
+
+    .title-proyecto{
+        height: 70px;
+        
+    }
+    .title-proyecto h2{
+        height: 100%;
+        font-size: 1.5em;
+        letter-spacing: 1px;
+        background-color: #ffffff;
+        color: #0347a0;
+        text-align: start;
+        font-weight: 500;
     }
 
    
