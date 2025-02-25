@@ -58,9 +58,9 @@ const AcercaPage = () => {
                     </div>
                     <div className="body-card">
                         <h2>Tecnologo En Analisis y Desarrollo De Software</h2>
-                        <p><span className='back-card'>Fecha Inicial</span>10/10/2025</p>
+                        <p><span className='back-card'>Fecha Inicial</span>  11/09/2023</p>
                    
-                        <p><span className='back-card'>Fecha Final</span>10/10/2025</p>
+                     
 
                         <a href="#" className='back-warning'>En Proceso</a>
 
@@ -72,9 +72,9 @@ const AcercaPage = () => {
                     </div>
                     <div className="body-card">
                         <h2>Tecnico En Programacion De Software</h2>
-                        <p><span className='back-card'>Fecha Inicial</span>10/10/2025</p>
+                        <p><span className='back-card'>Fecha Inicial</span>  28/09/2015</p>
                    
-                        <p><span className='back-card'>Fecha Final</span>10/10/2025</p>
+                        <p><span className='back-card'>Fecha Final</span>  28/09/2016</p>
                         <a href="#" className='back-success'>Certificado</a>
 
 
@@ -111,14 +111,13 @@ const AcercaPage = () => {
                     <h2>Cursos Online</h2>
                 </div>
                 <div className="card">
-                    <div className="header-card">
+                    <div className="header-card header-card-udemy">
+                        <img src={iconReact} alt="dev kevin galvis SENA" />
                         <img src={logoUdemy} alt="dev kevin galvis SENA" />
                     </div>
                     <div className="body-card">
-                        <h2>Tecnologo En Analisis y Desarrollo De Software</h2>
-                        <p><span className='back-card'>Fecha Inicial</span>10/10/2025</p>
-                   
-                        <p><span className='back-card'>Fecha Final</span>10/10/2025</p>
+                        <h2>React Js </h2>
+                        <p><span className='back-card'>Horas</span> 56.6</p>
 
                         <a href="#" className='back-warning'>En Proceso</a>
 
@@ -126,13 +125,12 @@ const AcercaPage = () => {
                 </div>
                 <div className="card">
                     <div className="header-card">
+                        <img src={iconJavaScript} alt="dev kevin galvis SENA" />
                         <img src={logoUdemy} alt="dev kevin galvis SENA" />
                     </div>
                     <div className="body-card">
-                        <h2>Tecnico En Programacion De Software</h2>
-                        <p><span className='back-card'>Fecha Inicial</span>10/10/2025</p>
-                   
-                        <p><span className='back-card'>Fecha Final</span>10/10/2025</p>
+                        <h2>JavaScript</h2>
+                        <p><span className='back-card'>Horas</span> 56.6</p>
                         <a href="#" className='back-success'>Certificado</a>
 
 
@@ -140,13 +138,13 @@ const AcercaPage = () => {
                 </div>
                 <div className="card">
                     <div className="header-card">
+                        <img src={iconHtml} alt="dev kevin galvis SENA" />
                         <img src={logoUdemy} alt="dev kevin galvis SENA" />
+                        
                     </div>
                     <div className="body-card">
-                        <h2>Tecnico En Programacion De Software</h2>
-                        <p><span className='back-card'>Fecha Inicial</span>10/10/2025</p>
-                   
-                        <p><span className='back-card'>Fecha Final</span>10/10/2025</p>
+                        <h2>HTML5</h2>
+                            <p><span className='back-card'>Horas</span> 56.6</p>
                         <a href="#" className='back-success'>Certificado</a>
 
 
