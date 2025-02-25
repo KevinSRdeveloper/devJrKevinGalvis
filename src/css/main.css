@@ -580,6 +580,7 @@ body{
     color: #fff;
     text-decoration: none;
     font-size: 0.8em;
+    
 }
 
 .slider-link a i{
@@ -613,13 +614,13 @@ body{
 /**/
 .sect-contactame{
     max-width: 1440px;
-    height: 85vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: brown;
-    margin: 0 auto;
+  
+    margin: 8px auto;
 }
 
 .art-form{
@@ -631,13 +632,17 @@ body{
 }
 
 .img-form{
-    width: 30%;
+    width: 35%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #0347a0;
+    background-color:#0572FF;
+    padding: 0.1em;
+    box-shadow: 0px 0px 17px 0px rgba(145, 145, 145, 0.608);
+
+    
 }
 
 .img-form i{
@@ -645,7 +650,7 @@ body{
     font-size: 1.5em;
     border-radius: 50%;
     padding: 0.2em;
-    color: #0347a0;
+    color: #0572FF;
 }
 .img-form p{
     font-size: 0.5em;
@@ -665,8 +670,10 @@ body{
 
 .art-container-form{
     width: 90%;
-    height: 60%;
+    height: 100%;
     background-color: #fff;
+    box-shadow: 0px 0px 17px 0px rgba(0, 94, 210, 0.608);
+
 }
 
 .title-form{
@@ -682,7 +689,75 @@ body{
     border-bottom: 1px solid #0347a0;
 }
 
+.form{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    justify-content: center;
+    gap: 15px;
+    
 
+
+}
+
+.form .grupos-form-items{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.form .grupos-form-items label{
+    color: #0347a0;
+    letter-spacing: 1px;
+}
+
+.form .grupos-form-items input{
+    padding: 0.2em;
+    width: 80%;
+    border: 1px solid #0347a0;
+    border-radius: 8px;
+    text-align: center;
+    outline: none;
+}
+
+
+
+.form .grupos-form-items textarea{
+    width: 90%;
+    text-align: center;
+    outline: none;
+}
+
+.grupos-form-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grupos-form-buttons button{
+    background: none;
+    border: none;
+    outline: none;
+    width: 40%;
+    background-color: #045ed3;
+    color: #fff;
+    border-radius: 8px;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+
+.grupos-form-buttons button:hover{
+   
+    background-color: #045ed3;
+   
+}
 
 
 
@@ -827,8 +902,48 @@ body{
     .swiper-wrapper{
         justify-content: center;
     }
-    
 
+    .sect-contactame{
+        width: 90%;
+        flex-direction: row;
+    }
+    .art-form{
+        width: 20%;
+        height: 90%;
+        flex-direction: column;
+    }
+    .img-form{
+        width: 100%;
+    }
+
+    .form .grupos-form-items{
+        width: 90%;
+        justify-content: start;
+        align-items: start;
+        margin-left: 1em;
+    }
+    
+    .form .grupos-form-items input{
+    
+        width: 50%;
+  
+    }
+
+    .grupos-form-buttons{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        margin-left: -2em;
+        gap: 12px;
+    }
+    
+    .grupos-form-buttons button{
+      
+        width: 20%;
+  
+    }
+
+   
    
 
    
@@ -946,6 +1061,31 @@ body{
         text-align: start;
         font-weight: 500;
     }
+
+    .art-container-form {
+        width: 50%;
+        height: 70%;
+    }
+
+    .sect-contactame{
+        flex-direction: column;
+    }
+    .art-form{
+        width: 70%;
+        height: 20%;
+        flex-direction: row;
+        background-color: #00000000;
+    }
+    .img-form{
+        width: 30%;
+    }
+    .img-form p{
+        font-size: 0.8em;
+    }
+    .img-form a{
+        font-size: 0.7em;
+    }
+
 
    
 }
