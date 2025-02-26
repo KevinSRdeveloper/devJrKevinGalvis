@@ -3,6 +3,8 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import system from '../assets/image/sistemworkshop.png';
 import mundoDivertido from '../assets/image/mundoDivertido.png';
+import portafolioWeb from '../assets/image/portafolioWeb.png';
+import estamosTrabajando from '../assets/image/enProceso.png';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -55,6 +57,7 @@ const ProyectosPage = () => {
                         <div className="tag-slider">
                             <p>Desarrollo Web</p>
                             <p>Sitio Web Informativo</p>
+                            <p>FreeLancer</p>
                         </div>
                         <div className="slider-tecnologias">
                             <img src={iconReact} alt="React JS Dev Kevin Galvis" />
@@ -65,18 +68,20 @@ const ProyectosPage = () => {
                         <hr />
                        
                         <div className="title-slider">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat cumque delectus tenetur nulla
+                            <p>
+                                He desarrollado una página web utilizando las tecnologias Reactjs para optimizar los tiempos de carga
+                                y adicional para escalar el proyecto a futuro segun se requiere de nuevas funciones, html5 y css3 se utilizo para la adaptabilidad a diferentes pantallas
                             </p>
                         </div>
                         <div className="slider-link">
-                            <a href="#" target='_blank'>
+                            <a href="https://mysystemworkshop.com/" target='_blank'>
                                 <i class="bi bi-arrow-up-right-square-fill"></i>
-                                www.google.com
+                                mysystemworkshop
                             </a>
                         </div>
 
                         <div className="slider-git">
-                            <a href="#"><i class="bi bi-github"></i></a>
+                            <a href="https://github.com/KevinSRdeveloper" target='_blank'><i class="bi bi-github"></i></a>
                         </div>
                        
                     </div>
@@ -89,6 +94,7 @@ const ProyectosPage = () => {
                         <div className="tag-slider">
                             <p>Desarrollo Web</p>
                             <p>Sitio Web Informativo</p>
+                            <p>Freelancer</p>
                         </div>
                         <div className="slider-tecnologias">
                             <img src={iconReact} alt="React JS Dev Kevin Galvis" />
@@ -99,13 +105,14 @@ const ProyectosPage = () => {
                         <hr />
                        
                         <div className="title-slider">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat cumque delectus tenetur nulla
+                            <p>
+                                He creado una página web informativa moderna y adaptable, utilizando React.js, HTML5 y CSS. El diseño está optimizado para ofrecer una experiencia fluida en todos los dispositivos (desktop, tablet y smartphone), asegurando que el contenido sea accesible y claro en cualquier tamaño de pantalla.
                             </p>
                         </div>
                         <div className="slider-link">
-                            <a href="#" target='_blank'>
+                            <a href="https://kevinsrdeveloper.github.io/mundodivertido/" target='_blank'>
                                 <i class="bi bi-arrow-up-right-square-fill"></i>
-                                www.google.com
+                                Mundo Divertido
                             </a>
                         </div>
 
@@ -118,11 +125,12 @@ const ProyectosPage = () => {
                 <SwiperSlide>
                     <div className="slider-card">
                         <div className="img-slider">
-                            <img src={mundoDivertido} alt="dev system kevin galvis" />
+                            <img src={portafolioWeb} alt="dev system kevin galvis" />
                         </div>
                         <div className="tag-slider">
                             <p>Desarrollo Web</p>
                             <p>Sitio Web Informativo</p>
+                            <p>Personal</p>
                         </div>
                         <div className="slider-tecnologias">
                             <img src={iconReact} alt="React JS Dev Kevin Galvis" />
@@ -133,13 +141,14 @@ const ProyectosPage = () => {
                         <hr />
                        
                         <div className="title-slider">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat cumque delectus tenetur nulla
+                            <p>
+                            He creado una página web informativa moderna y adaptable, utilizando React.js, HTML5 y CSS. El diseño está optimizado para ofrecer una experiencia fluida en todos los dispositivos (desktop, tablet y smartphone), asegurando que el contenido sea accesible y claro en cualquier tamaño de pantalla.
                             </p>
                         </div>
                         <div className="slider-link">
                             <a href="#" target='_blank'>
                                 <i class="bi bi-arrow-up-right-square-fill"></i>
-                                www.google.com
+                                kevin portafolio web
                             </a>
                         </div>
 
@@ -182,11 +191,10 @@ const ProyectosPage = () => {
             <SwiperSlide>
                     <div className="slider-card">
                         <div className="img-slider">
-                            <img src={system} alt="dev system kevin galvis" />
+                            <img src={estamosTrabajando} alt="dev system kevin galvis" />
                         </div>
                         <div className="tag-slider">
-                            <p>Desarrollo Web</p>
-                            <p>Sitio Web Informativo</p>
+                         
                         </div>
                         <div className="slider-tecnologias">
                             <img src={iconReact} alt="React JS Dev Kevin Galvis" />
@@ -197,14 +205,12 @@ const ProyectosPage = () => {
                         <hr />
                        
                         <div className="title-slider">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat cumque delectus tenetur nulla
+                            <p>
+                                Me encuentro en desarrollando nuevos proyectos, muy pronto te mostrarle
                             </p>
                         </div>
                         <div className="slider-link">
-                            <a href="#" target='_blank'>
-                                <i class="bi bi-arrow-up-right-square-fill"></i>
-                                www.google.com
-                            </a>
+                            
                         </div>
 
                         <div className="slider-git">

@@ -119,7 +119,7 @@ const AcercaPage = () => {
                         <h2>React Js </h2>
                         <p><span className='back-card'>Horas</span> 56.6</p>
 
-                        <a href="#" className='back-warning'>En Proceso</a>
+                        <a href="#" className='back-success'>Certificado</a>
 
                     </div>
                 </div>
